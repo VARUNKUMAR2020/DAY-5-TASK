@@ -1,0 +1,27 @@
+Window:
+        The window object represents the browser window or tab that contains the current webpage. It acts as the global object in client-side JavaScript and provides various properties and methods to interact with the browser window. Some important properties of the window object include:
+           -->window.location: Represents the URL of the current page and provides methods to manipulate the browser location.
+           -->window.alert(), window.confirm(), window.prompt(): Display dialog boxes for alerting users or gathering input.
+           -->window.setTimeout(), window.setInterval(): Schedule the execution of functions after a specified time delay or at regular intervals.
+
+The window object is the top-level object in the browser's JavaScript hierarchy, and many other objects and properties are accessed through it.
+
+Screen:
+        The screen object represents the user's screen or monitor. It provides information about the screen's dimensions and color depth. Some commonly used properties of the screen object include:
+        -->screen.width: Returns the width of the screen in pixels.
+        -->screen.height: Returns the height of the screen in pixels.
+        -->screen.availWidth: Returns the available width of the screen, excluding taskbars and other system elements.
+        -->screen.availHeight: Returns the available height of the screen.
+
+These properties can be used to create responsive designs or adjust the layout of a web page based on the user's screen size.
+
+Document:
+         The document object represents the current web page loaded in the browser window. It provides access to the HTML elements and allows manipulation of the page's content. The document object includes various properties, methods, and events for interacting with the DOM (Document Object Model). Here are some commonly used features of the document object:
+        -->document.getElementById(), document.querySelector(): Retrieve HTML elements from the page using their IDs or CSS selectors.
+        -->document.createElement(): Create new HTML elements dynamically.
+        -->document.querySelector().innerHTML: Get or set the HTML content of an element.
+        -->document.addEventListener(): Attach event handlers to elements or the document itself.
+
+By using the document object, you can dynamically modify the content, structure, and appearance of a web page.
+
+In summary, the window object represents the browser window or tab, the screen object provides information about the user's screen, and the document object represents the current web page's structure and content. They serve different purposes and allow JavaScript to interact with different aspects of the browser environment.
